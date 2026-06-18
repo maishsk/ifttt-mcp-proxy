@@ -1,0 +1,16 @@
+{
+  "name": "ifttt-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Local stdio MCP proxy for IFTTT (OAuth 2.1 + PKCE)",
+  "main": "index.js",
+  "bin": {
+    "ifttt-mcp-proxy": "./index.js"
+  },
+  "scripts": {
+    "auth": "node index.js --auth",
+    "status": "node index.js --status",
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "ifttt", "oauth", "proxy", "stdio", "sse"],
+  "license": "MIT"
+}
